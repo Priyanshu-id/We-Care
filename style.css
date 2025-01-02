@@ -79,11 +79,13 @@ ul{
     color: #014dd5;
 }
 /* Style for SignIn/SignUp on hover to differentiate them */
-.navigation .menu li:nth-last-child(-n+2) a {
+.nav-signin-btn,
+.nav-signup-btn {
     font-weight: bold;
     color: #3498db; /* Blue color for Sign In and Sign Up */
 }
-.navigation .menu li:nth-last-child(-n+2) a:hover{
+.nav-signin-btn:hover,
+.nav-signup-btn:hover {
     color: #f39c12; /* Hover effect on Sign In and Sign Up */
 }
 .nav-appointment-btn{
