@@ -83,17 +83,16 @@ ul{
 .nav-signup-btn {
     font-weight: bold;
     color: #3498db; /* Blue color for Sign In and Sign Up */
-    text-decoration: none; /* Removing underline */
+    text-decoration: none;
     padding: 10px 15px; /* Add some padding for better button-like appearance */
-    border-radius: 5px; /* Slight rounded corners */
+    border-radius: 5px;
     transition: color 0.3s, background-color 0.3s; /* Smooth transition for hover effect */
 }
-/* Hover effects for Sign In and Sign Up links */
 .nav-signin-btn:hover,
 .nav-signup-btn:hover {
-    color: #f39c12; /* Hover effect color (orange) */
-    background-color: #ecf0f1; /* Light background color on hover */
-    text-decoration: none; /* Ensures no underline on hover */
+    color: #faa215;
+    background-color: #ecf0f1;
+    text-decoration: none;
 }
 .nav-appointment-btn{
     height: 45px;
