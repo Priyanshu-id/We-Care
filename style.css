@@ -82,15 +82,13 @@ ul{
 .nav-signin-btn,
 .nav-signup-btn {
     font-weight: bold;
-    color: #3498db; /* Blue color for Sign In and Sign Up */
-    text-decoration: underline;
+    text-decoration: none;
     padding: 10px 15px; /* Add some padding for better button-like appearance */
     border-radius: 5px;
     transition: color 0.3s, background-color 0.3s; /* Smooth transition for hover effect */
 }
 .nav-signin-btn:hover,
 .nav-signup-btn:hover {
-    color:orange;
     background-color: #ecf0f1;
     text-decoration: none;
 }
