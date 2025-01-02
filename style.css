@@ -90,7 +90,7 @@ ul{
 }
 .nav-signin-btn:hover,
 .nav-signup-btn:hover {
-    color: #faa215;
+    color:orange;
     background-color: #ecf0f1;
     text-decoration: none;
 }
