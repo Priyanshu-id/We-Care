@@ -78,15 +78,22 @@ ul{
 .menu li a:hover{
     color: #014dd5;
 }
-/* Style for SignIn/SignUp on hover to differentiate them */
+/* Style for SignIn/SignUp buttons */
 .nav-signin-btn,
 .nav-signup-btn {
     font-weight: bold;
     color: #3498db; /* Blue color for Sign In and Sign Up */
+    text-decoration: none; /* Removing underline */
+    padding: 10px 15px; /* Add some padding for better button-like appearance */
+    border-radius: 5px; /* Slight rounded corners */
+    transition: color 0.3s, background-color 0.3s; /* Smooth transition for hover effect */
 }
+/* Hover effects for Sign In and Sign Up links */
 .nav-signin-btn:hover,
 .nav-signup-btn:hover {
-    color: #f39c12; /* Hover effect on Sign In and Sign Up */
+    color: #f39c12; /* Hover effect color (orange) */
+    background-color: #ecf0f1; /* Light background color on hover */
+    text-decoration: none; /* Ensures no underline on hover */
 }
 .nav-appointment-btn{
     height: 45px;
