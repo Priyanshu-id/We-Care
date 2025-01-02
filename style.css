@@ -78,6 +78,14 @@ ul{
 .menu li a:hover{
     color: #014dd5;
 }
+/* Style for SignIn/SignUp on hover to differentiate them */
+.navigation .menu li:nth-last-child(-n+2) a {
+    font-weight: bold;
+    color: #3498db; /* Blue color for Sign In and Sign Up */
+}
+.navigation .menu li:nth-last-child(-n+2) a:hover {
+    color: #f39c12; /* Hover effect on Sign In and Sign Up */
+}
 .nav-appointment-btn{
     height: 45px;
     padding: 0px 20px;
